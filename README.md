@@ -5,18 +5,31 @@
 This project uses skills learnt to build a mobile-first responsive Website for the E.D.M Producer Deadmau5. The site includes the ability to check out the latest mixes produced by the DJ (video) format. It also has a drop-down in which you can make an inquiry about booking the DJ. It allows fans and potential fans to listen to Deadmau5 music via spotify and check out his latest albums. The store section allows fans to access the genre of store they prefer and also allows the user to see whats on sale at a fast glance. 
 
 ### Technologies Used
-- Figma ( for Wireframes ).
+
+#### Design tools
+- Figma (for Wireframes).
+
+#### Languages/Frameworks. 
 - HTML5
 - CSS3 
 - CSS Grid
 - Bootstrap
-- Ubuntu
+- Javascript and JQuery ( for drop-down )
+
+#### Source Control /Publishing
 - GIT
 - GITHUB
+
+#### Testing Tools
 - Google Chrome developer tools
+
+
+#### Software used to Code
 - Cloud 9
 - Visual Studio Code
-- Javascript and JQuery ( for drop-down )
+
+#### Operating System
+- Ubuntu
 
 ### Deployment
 

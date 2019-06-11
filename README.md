@@ -14,12 +14,13 @@ This project uses skills learnt to build a mobile-first responsive Website for t
 - GIT
 - GITHUB
 - Google Chrome developer tools
+- Cloud 9
 - Visual Studio Code
 - Javascript and JQuery ( for drop-down )
 
 ### Deployment
 
-This website was created using Visual Studio Code for development.Using Git as a form of version control and deploying to github when the majority of the site was complete. The website deployed at :https://conoroshea1996.github.io/Deadmau5-Website/media.html
+This website was developed in Cloud 9 but later down the line I switched to Visual Studio Code to speed up development.Using Git as a form of version control and deploying to github when the majority of the site was complete. The website deployed at :https://conoroshea1996.github.io/Deadmau5-Website/media.html
 
 
 

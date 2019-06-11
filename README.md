@@ -8,7 +8,7 @@ This project uses skills learnt to build a mobile-first responsive Website for t
 
 #### Design tools
 - Figma (for Wireframes).
-[a relative link](assets/WireFrames-Figma) 
+[Figma Wireframes](assets/WireFrames-Figma) 
 
 #### Languages/Frameworks. 
 - HTML5

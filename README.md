@@ -41,5 +41,5 @@ This website was developed in Cloud 9 but later down the line I switched to Visu
 
 
 ### Testing
-All testing was preformed locally using chrome developer tools. To ensure the site worked looked good on all screen size from an Iphone-5 to Desktop screen size screen. Content was added on large screen sizes.
+All testing was preformed locally using chrome developer tools. To ensure the site  looked good on all screen size from an Iphone-5 to Desktop screen size screen. Content was added on larger screen sizes to make use of more screen space.
 

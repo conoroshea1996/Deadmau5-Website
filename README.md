@@ -8,7 +8,7 @@ This project uses skills learnt to build a mobile-first responsive Website for t
 
 #### Design tools
 - Figma (for Wireframes).
-[Figma Wireframes](assets/WireFrames-Figma) 
+[Figma Wireframes](User-design-experience/WireFrames-Figma) 
 
 [FIGMA ARTBOARD] (https://www.figma.com/file/HKVZ4EWlcwHwVKlNPZvLI4y0/MileStone?node-id=0%3A1)
 

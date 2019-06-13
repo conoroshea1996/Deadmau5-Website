@@ -36,7 +36,7 @@ This project uses skills learnt to build a mobile-first responsive Website for t
 
 ### Deployment
 
-This website was developed in Cloud 9 but later down the line I switched to Visual Studio Code to speed up development.Using Git as a form of version control and deploying to github when the majority of the site was complete. The website deployed at :https://conoroshea1996.github.io/Deadmau5-Website/media.html
+This website was developed in Cloud 9 but later down the line I switched to Visual Studio Code to speed up development.Using Git as a form of version control and deploying to github when the majority of the site was complete. The website deployed at :https://conoroshea1996.github.io/Deadmau5-Website/index.html
 
 
 

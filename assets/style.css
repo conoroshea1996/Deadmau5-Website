@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,700,800&display=swap');
-
 *{
     box-sizing: border-box;
 }
@@ -9,7 +8,6 @@ body{
 .wrapper{
      overflow-x: hidden;
 }
-
 /* #### Navbar #### */
 .navbar{
     background-color: #0f0e0ebd;
@@ -17,7 +15,6 @@ body{
     padding-top:0;
     padding-bottom:0;
 }
-
 .socials ul li a i{
     color: rgba(200, 200, 201, 0.788) ;
     font-size: 20px;
@@ -40,7 +37,6 @@ body{
     transform:translateX(-50%);
     width: 50px;
 }
-
 /*#### Hero ####*/
 .hero{
     height:85vh;
@@ -71,8 +67,6 @@ body{
     padding:10px 0;
      color:#F9F8F8;
 }
-
-
 /*### brands ###*/
 .genres{
     background-color:#0c0c0c;
@@ -100,9 +94,7 @@ body{
     background-position: top left;
     clip-path: polygon(0% 0%, 100% 0, 100% 96%, 51% 100%, 0 93%);
 }
-
 .banner-text{
-    
     position: absolute;
     top:80%;
     right:50%;
@@ -114,7 +106,6 @@ body{
 .banner-heading{
     font-size: 28px;
 }
-
 /*### videos ###*/
 .videos{
     margin-top:30px;
@@ -122,19 +113,15 @@ body{
 .videos-vid{
     width:100%;
 }
-
 .vid-container {
   border-radius: 50px;
   overflow: hidden;
   z-index: 1;
 }
-
-
 /*### footer ###*/
 .footer{
       color:#fff;
 }
-
 .copywrite{
     color:#fff;
     font-size:10px;
@@ -151,12 +138,10 @@ body{
     justify-content: space-around;
     font-size: 40px;
     list-style: none;
-   
 }
 .social-links li a i{
      color:#fff;
 }
-
 .copywrite-banner{
     background-color:#243CA1;
     height:25px;
@@ -164,9 +149,6 @@ body{
 .copywrite-banner p{
     margin:0;
 }
-
-
-
 /*#####  Moodle  ####*/
 .modal-header{
     position: relative;
@@ -210,12 +192,10 @@ textarea.form-control:focus{
     transform: translateY(-1px);
 }
 .modal-header .close:focus {outline:0;}
-
 .form-group ::placeholder{
      color:white;
      font-size: 12px;
 }
-
 .form-group input{
     background:#ffffff30;
     width:85%;
@@ -225,14 +205,28 @@ textarea.form-control:focus{
     color: white;
     font-weight: lighter;
 }
-
 .format{
     font-size:10px;
     color:white;
     padding-left:20px;
 }
-
 /*### Media Queries ###*/
+@media only screen and (min-width: 650px){
+    .hero-heading{
+        font-size:38px;
+        color:#F9F8F8;
+    }
+
+    .modal-content{
+        opacity: 0.9;
+        width: 100%;
+    }
+
+    .form-group input{
+        width:75%;
+    }
+}
+
 @media only screen and (min-width: 950px){
     .hero-wrapper{
         top:60%;
@@ -243,40 +237,17 @@ textarea.form-control:focus{
         right:20%;
         transform: translate(50%,-50%);
         color: #C2C2C2;
+    }
+    .banner-heading{
+        font-size: 38px;
+    }
+    .active:after{
+        left: 22%;
+        width: 60%;
+        transform: translate(0);
+    }
 }
-.banner-heading{
-    font-size: 38px;
-}
-
-.active:after{
-    left: 22%;
-    width: 60%;
-    transform: translate(0);
-}
-}
-
-/*############################################################*/
-@media only screen and (min-width: 650px){
-    .hero-heading{
-    font-size:38px;
-    color:#F9F8F8;
-}
-
-.modal-content{
-    opacity: 0.9;
-    width: 100%;
-}
-
-.form-group input{
-    width:75%;
-}
-
-}
-
-/*####################################*/
-
 /*### Animations ###*/
-
 @keyframes fadeIn {
     0%{
        opacity:0;
@@ -291,18 +262,12 @@ textarea.form-control:focus{
         transform:translateX(0);
     }
 }
-
-
 /*### general ###*/
-
 .my-container{
     width:90%;
     margin: 50px auto;
 }
-
-
 /*######################### Tour Page ####################*/
-
 /*### Hero ###*/
 .hero-tour{
     height:80vh;
@@ -311,14 +276,12 @@ textarea.form-control:focus{
     background-size:100% 100%;
     position:relative;
 }
-
 .tour-wrapper{
      position:absolute;
      top:65%;
      left:50%;
      transform:translate(-50% ,-50%);
 }
-
 .hero-sub-heading {
       font-size:38px;
       color:#F9F8F8;
@@ -327,13 +290,11 @@ textarea.form-control:focus{
       letter-spacing: -4.5px;
       text-align: center;
 }
-
 /*### Dates ###*/
 .date{
     position:relative;
     margin-left:5px;
 }
-
 .date::after{
     display:none;
 }
@@ -343,14 +304,12 @@ textarea.form-control:focus{
     font-weight:200;
     font-family: 'Muli',sans-serif;
 }
-
 /*### timetable ###*/
 .timetable{
     height: 650px;
     background:url(../assets/images/tour-timetable.png);
     background-size: 100% 100%;
 }
-
 .timetable-info{
       width:100%;
       color: #fff;
@@ -378,57 +337,49 @@ td:nth-child(3){
     text-align: center;
     width:15%;
 }
-
-
-
 /*######################### Tour Page End ####################*/
 @media only screen and (min-width: 950px){
     .tour-wrapper{
         top:42%;
         left:25%;
         transform:translate(-50% ,-50%);
+    }   
+    .hero-sub-heading{
+        font-size:64px;
+        text-align: start;
+    }
+    .date{
+        position:relative;
+        margin-left:5px;
+    }
+    .date::after{
+        content:'';
+        position:absolute;
+        left:-60px;
+        top:50%;
+        background:#fff;
+        height:3px;
+        width:50px;
+    }
+    /*#### table  ####*/
+    .timetable-info{
+        width:80%;
+        margin: auto;
+    }
+    td:nth-child(1){
+        text-align: center;
+        width:25%;
+    }
+    td:nth-child(2){
+        text-align: center;
+        width:50%;
+    }
+    td:nth-child(3){
+        text-align: center;
+        width:25%;
+    }
 }
-.hero-sub-heading{
-    font-size:64px;
-    text-align: start;
-}
-.date{
-    position:relative;
-    margin-left:5px;
-}
-
-
-.date::after{
-    content:'';
-    position:absolute;
-    left:-60px;
-    top:50%;
-    background:#fff;
-    height:3px;
-    width:50px;
-}
-
-
-
-/*#### table  ####*/
-td:nth-child(1){
-    text-align: center;
-    width:25%;
-}
-td:nth-child(2){
-    text-align: center;
-    width:50%;
-}
-td:nth-child(3){
-    text-align: center;
-    width:25%;
-}
-}
-
-
 /*######################### Media Page ####################*/
-
-
 /*### media hero ###*/
 .hero-media{
     background:url(../assets/images/media-page.jpg);
@@ -437,12 +388,10 @@ td:nth-child(3){
     padding-top:80px;
     padding-bottom:20px;
 }
-
 .laptop-screen{
     width:100%;
     height:100%;
 }
-
 .media-heading{
     font-size:40px;
 }
@@ -469,16 +418,11 @@ td:nth-child(3){
     right: 55px;
     top: 30px;
 }
-
-
-
 .media-info{
     color:#fff;
     text-shadow: -2px 0 #4B0081 , 0 2px #4B0081, 2px 0 #4B0081, 0 -2px #4B0081;
 }
-
 /*### Spotify ###*/
-
 .spotify-album-box{
     width:60%;
     height: 60%;
@@ -487,18 +431,15 @@ td:nth-child(3){
     left:50%;
     transform: translate(-50%,-50%);
 }
-
 .spotify-album-photo{
     width: 100%;
     height:100%;
 }
-
 .spotify-album-text{
     color:#fff;
     font-size:12px;
     text-shadow: 2px 6px 10px #CEB3AF;
 }
-
 .spotify-card{
     height:300px;
 }
@@ -510,7 +451,6 @@ td:nth-child(3){
     height: 100%;
     width:100%;
 }
-
 .spotify-grid{
     height:100%;
     display: grid;
@@ -521,11 +461,7 @@ td:nth-child(3){
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
-
-
-
 /*### albums ###*/
-
 .tracks{
     width:70%;
     margin:auto;
@@ -553,7 +489,6 @@ td:nth-child(3){
     right: 10%;
     top: 30px;
 }
-
 .card{
     height: 150px;
     width:100%;
@@ -572,42 +507,34 @@ td:nth-child(3){
 .card:hover .card-img{
     opacity: 1;
 }
-
 .carousel-item.active:after{
     display: none;
 }
 
-
 /*### Media page Media Queries ###*/
-/*############################################################*/
 @media only screen and (min-width: 650px){
-.hero-media{
-    height:80vh;
+    .hero-media{
+        height:80vh;
+    }
+    .media-lined::after{
+        left: 80px;
+    }
+    .media-lined::before{
+        right: 80px;
+    }
+    .lined-center::after{
+        left: 27%;
+        width:35px;
+    }
+    .lined-center::before{
+        right: 27%;
+        width:35px;
+    }
+    .spotify-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
-.media-lined::after{
-    left: 80px;
-}
-.media-lined::before{
-    right: 80px;
-}
-.lined-center::after{
-    left: 27%;
-    width:35px;
-}
-.lined-center::before{
-    right: 27%;
-    width:35px;
-}
-
-.spotify-grid{
-    grid-template-columns: repeat(2,1fr);
-}
-
-}
-
-
 /*######################### store Page ####################*/
-
 .store-banner{
     height:100%;
     position: relative;
@@ -650,11 +577,9 @@ td:nth-child(3){
     z-index:20;
     transform:translate(-50% ,-50%);
 }
-
 .btn:hover{
     color:#fff;
 }
-
 .btn-store{
     border: solid 2px #fff;
     color:#fff;
@@ -666,7 +591,6 @@ td:nth-child(3){
 .btn-store:hover{
     background:#6e637987;
 }
-
 .store-content-heading{
     color:#fff;
     font-family:'Muli', sans-serif;
@@ -675,10 +599,7 @@ td:nth-child(3){
     margin-bottom:20px;
     font-weight:bold;
 }
-
-
 /*### Merch store ###*/
-
 .merch-store{
     width:80%;
     margin:auto;
@@ -693,7 +614,6 @@ td:nth-child(3){
     grid-template-columns: repeat(2,1fr);
     grid-template-rows:1fr 1fr 1fr 1fr;
 }
-
 .products{
     font-size:0.8rem;
     color:#fff;
@@ -713,7 +633,6 @@ td:nth-child(3){
     padding:0 20px;
     font-size: 15px;
 }
-
 .item-card{
     transition: all 0.8s ease-in-out;
 }
@@ -721,8 +640,6 @@ td:nth-child(3){
     transform: translateY(-1px);
     box-shadow: 2px 1px 10px 0px rgba(224,211,224,0.2);
 }
-
-
 .item-img{
     height:80%;
     width:100%;
@@ -786,13 +703,11 @@ td:nth-child(3){
 .line-out{
     text-decoration: line-through;
 }
-
 .store-name-box{
       animation: fadeIn 2s ease-in-out;
 }
 
 /*### store page Media Queries ###*/
-/*############################################################*/
 @media only screen and (min-width: 650px){
     .store-banner{
         height:100vh;
@@ -803,12 +718,10 @@ td:nth-child(3){
         height: 100%;
         margin: 0;
     }
-    
     .mau5trap-store{
         height: 100%;
         margin: 0;
     }
-    
     .sales-store{
         margin:auto;
         width:100%;
@@ -817,6 +730,5 @@ td:nth-child(3){
          grid-row-gap:30px;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows:1fr 1fr;
-}
-
+    }
 }

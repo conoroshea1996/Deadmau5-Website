@@ -142,6 +142,9 @@ body{
 .social-links li a i{
      color:#fff;
 }
+.social-links li a i:hover{
+    animation: footerIcons 4s linear infinite;
+}
 .copywrite-banner{
     background-color:#243CA1;
     height:25px;
@@ -260,6 +263,20 @@ textarea.form-control:focus{
     100%{
         opacity:1;
         transform:translateX(0);
+    }
+}
+@keyframes footerIcons{
+    0%{
+        color: rgb(68, 235, 235);
+        transform:rotate(10deg);
+    }
+    50%{
+        color: rgb(47, 255, 92);
+        transform:rotate(-10deg);
+    }
+    100%{
+        color: rgb(245, 41, 167);
+        transform:rotate(10deg);
     }
 }
 /*### general ###*/
